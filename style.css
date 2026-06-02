@@ -1,0 +1,9 @@
+#box-model{
+    width: 800px;
+    height: 400px;
+    background-color: rgb(8, 243, 223);
+    border-radius: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 10px 10px 50px blue;
+    font-style: oblique;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+
+    <style>
+        :root{
+            --main-bg-color: rgb(222, 97, 13);
+            --height: 200px;
+            --width: 200px;
+            --border:20%;
+            --position:static;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: rgb(0, 0, 0);
+        }
+
+        .container{
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        #variable1{
+            width: var(--width);
+            height: var(--height);
+            background-color: var(--main-bg-color);
+            border-radius: var(--border);
+            position: var(--position);
+        }
+        #variable2{
+            width: var(--width);
+            height: var(--height);
+            background-color: var(--main-bg-color);
+            border-radius: var(--border);
+            position: var(--position);
+        }
+        #variable3{
+            width: var(--width);
+            height: var(--height);
+            background-color: var(--main-bg-color);
+            border-radius: var(--border);
+            position: var(--position);
+        }
+        #variable4{
+            width: var(--width);
+            height: var(--height);
+            background-color: var(--main-bg-color);
+            border-radius: var(--border);
+            position: var(--position);
+        }
+    </style>    
+</head>
+<body>
+    <div class="container">
+        <div id="variable1"></div>
+        <div id="variable2"></div>
+        <div id="variable3"></div>
+        <div id="variable4"></div>
+    </div>
+</body>
+</html>

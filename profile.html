@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+
+    <style>
+        .container{
+            height: 600px;
+            width: 400px;
+            border: 1px solid black;
+            display: flex;
+            margin: 0 auto;
+            flex-direction: column;
+                       
+        }
+
+        .blue{
+            height: 175px;
+            width: 100%;
+            border: 1px solid black;
+            background-color: rgb(22, 75, 190);
+        }
+        .photo{
+            height: 150px;
+            width: 150px;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 50%;
+            z-index: 1;
+            margin-top: -75px;
+            margin-left: 118px;
+            img{
+                height: 100%;
+                width: 100%;
+                border-radius: 50%;
+            }
+        }
+
+        .codingLab{
+            height: 50px;
+            width: 100%;            
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .yt{
+            height: 50px;
+            width: 100%;            
+            font-size: 15px;
+            font-weight:lighter;
+            text-align: center;
+
+        }
+
+        .social{
+            height: 100px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .facebook{
+            height: 60px;
+            width: 60px;
+            
+        }
+        .twitter{
+            height: 60px;
+            width: 60px;
+        }
+        .instagram{
+            height: 60px;
+            width: 60px;
+        }
+        .youtube{
+            height: 60px;
+            width: 60px;
+        }
+        .icons{
+            height: 100px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;                
+            align-items: center;
+        }
+        .subsccribe{
+            height: 40px;
+            width: 100px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(12, 40, 152);
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            
+        }
+        .msg{
+            height: 40px;
+            width: 100px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(12, 40, 152);
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+        }
+        .task{
+            height: 100px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;                
+            align-items: center;
+        }
+        .like{
+            height: 50px;
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .comment{
+            height: 50px;
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .share{
+            height: 50px;
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="blue"></div>
+        <div class="photo"><img src="meloni.jpeg" alt="profile picture"></div>
+        <div class="codingLab">codingLab</div> 
+        <div class="yt">Youtuber & Blogger</div>
+        <div class="social">    
+            <div class="facebook"><img src="facebook-brands-solid-full.svg" alt="Facebook"></div>
+            <div class="twitter"><img src="twitter-brands-solid-full.svg" alt="twitter"></div>
+            <div class="instagram"><img src="instagram-brands-solid-full.svg" alt="Instagram"></div>
+            <div class="youtube"><img src="youtube-brands-solid-full.svg" alt="YouTube"></div>
+        </div>
+        <div class="icons">
+            <div class="subsccribe">Subscribe</div>
+            <div class="msg">Message</div>            
+        </div>
+        <div class="task">
+            <div class="like"><img src="heart-regular-full.svg" alt="Like">60.4k</div>
+            <div class="comment"><img src="comment-regular-full.svg" alt="Comment">1.2k</div>
+            <div class="share"><img src="share-solid-full.svg" alt="Share">1.5k</div>
+        </div>
+    </div>
+</body>
+</html>

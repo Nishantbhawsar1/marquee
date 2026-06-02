@@ -1,0 +1,48 @@
+#road{
+    background-color: black;
+    height: 400px;
+    width: 200px;
+    margin-left: 400px;
+}
+#line1 {
+    background-color: white;
+    height: 40px;
+    width: 20px;
+    margin-top: 22px;
+    margin-left: 87px;
+}
+#line2 {
+    background-color: white;
+    height: 40px;
+    width: 20px;
+    margin-top: 25px;
+    margin-left: 87px;
+}
+#line3 {
+    background-color: white;
+    height: 40px;
+    width: 20px;
+    margin-top: 27px;
+    margin-left: 87px;
+}
+#line4 {
+    background-color: white;
+    height: 40px;
+    width: 20px;
+    margin-top: 29px;
+    margin-left: 87px;
+}
+#line5 {
+    background-color: white;
+    height: 40px;
+    width: 20px;
+    margin-top: 31px;
+    margin-left: 87px;
+}
+#line6 {
+    background-color: white;
+    height: 40px;
+    width: 20px;
+    margin-top: 33px;
+    margin-left: 87px;
+}

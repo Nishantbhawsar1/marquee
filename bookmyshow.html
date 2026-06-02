@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BookMyShow Clone</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+header{
+    background:#ffffff;
+    padding:15px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:1px solid #ddd;
+}
+
+.logo{
+    color:#d9232d;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.search-box input{
+    width:400px;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.location{
+    font-size:15px;
+}
+
+.banner{
+    background:#a2a2a2;
+    color:white;
+    padding:40px;
+    margin:20px;
+    border-radius:10px;
+    display:flex;
+}
+
+.section{
+    padding:20px 50px;
+}
+
+.section h2{
+    margin-bottom:20px;
+}
+
+.movie-container{
+    display:flex;
+    gap:20px;
+}
+
+.movie-card{
+    background:white;
+    width:220px;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.movie-card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.movie-info{
+    padding:15px;
+}
+
+.movie-info h3{
+    margin-bottom:8px;
+}
+
+.movie-info p{
+    color:#666;
+    font-size:14px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="logo">bookmyshow</div>
+
+    <div class="search-box">
+        <input type="text" placeholder="Search Movies, Events, Plays, sports and activities">
+    </div>
+
+    <div class="location">Statue of unity</div>
+</header>
+
+<div class="banner">
+    <img src="banner1.webp" alt="BookMyShow Banner">
+</div>
+
+<section class="section">
+    <h2>Recommended Movies</h2>
+
+    <div class="movie-container">
+
+        <div class="movie-card">
+            <img src="img1.webp" alt="Krishnavataram Part 1">
+            <div class="movie-info">
+                <h3>Krishnavataram Part 1</h3>
+                
+            </div>
+        </div>
+
+        <div class="movie-card">
+            <img src="img2.webp" alt="BHoot bangla">
+            <div class="movie-info">
+                <h3>BHoot bangla</h3>
+                
+            </div>
+        </div>
+
+        <div class="movie-card">
+            <img src="img3.webp" alt="pati patni aur voh">
+            <div class="movie-info">
+                <h3>pati patni aur voh</h3>
+                
+            </div>
+        </div>
+
+        <div class="movie-card">
+            <img src="img4.webp" alt="chand mera dil">
+            <div class="movie-info">
+                <h3>chand mera dil</h3>
+                
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+</body>
+</html>

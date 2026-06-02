@@ -1,0 +1,26 @@
+#div1{
+    background-color: green;
+    height: 300px;
+    width: 800px;
+}
+#div2 {
+    background-color: red;
+    height: 175px;
+    width: 75%;
+    margin-left: 12%;
+}
+#div3 {
+    background-color: blue;
+    height: 110px;
+    width: 110px;
+    margin-left: 3%;
+    margin-top: -139px;
+    border-radius: 50%;
+}
+#div4{
+    background-color: yellow;
+    height: 100px;
+    width: 500px;
+    margin-left: 12%;
+    margin-top: 25px;
+}
