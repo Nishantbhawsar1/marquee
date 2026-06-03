@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #1f1448;
+        }
+        .container{
+            display:grid;
+            grid-template-columns: 250px 1fr 250px;
+            grid-template-rows: 80px 1fr 60px;
+            grid-template-areas:
+                "a a a"
+                "b c d"
+                "e e e";
+            gap: 10px;
+            height: 100vh;
+            
+        }
+        .a{grid-area: a; background-color: #0d77a4; text-align: center;}
+        .b{grid-area: b;background-color: #21cbe6; text-align: center;}
+        .c{grid-area: c;background-color: #11a979; text-align: center;}
+        .d{grid-area: d;background-color: #b817ca; text-align: center;}
+        .e{grid-area: e;background-color: #05cb68; text-align: center;}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="a">header</div>
+        <div class="b">sidebar</div>
+        <div class="c">main content</div> 
+        <div class="d">right sidebar</div>
+        <div class="e">footer</div>
+    </div>
+</body>
+</html>
