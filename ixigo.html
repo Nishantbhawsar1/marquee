@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ixigo</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+
+
+.top-banner{
+    background:#003b8e;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.top-banner h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+
+.navbar{
+    background:white;
+    padding:18px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:1px solid #ddd;
+}
+
+.logo{
+    background:#ff6600;
+    color:white;
+    padding:10px 18px;
+    border-radius:6px;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.nav-links{
+    display:flex;
+    gap:30px;
+    font-size:18px;
+}
+
+
+.tabs{
+    background:white;
+    width:95%;
+    margin:25px auto 0;
+    padding:20px;
+    display:flex;
+    gap:50px;
+    border-radius:15px 15px 0 0;
+}
+
+.tab{
+    font-size:28px;
+    font-weight:600;
+    cursor:pointer;
+}
+
+.active{
+    color:#0b6ef3;
+    border-bottom:4px solid #0b6ef3;
+    padding-bottom:12px;
+}
+
+
+.search-card{
+    width:95%;
+    margin:auto;
+    background:white;
+    padding:25px;
+    border-radius:0 0 20px 20px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+.trip-type{
+    display:flex;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.trip-btn{
+    border:1px solid #0b6ef3;
+    color:#0b6ef3;
+    padding:10px 25px;
+    border-radius:30px;
+}
+
+.fields{
+    display:grid;
+    grid-template-columns:2fr 2fr 1.5fr 1.5fr 1.5fr 1fr;
+}
+
+.field{
+    border:1px solid #eee;
+    padding:20px;
+    background:#fafafa;
+}
+
+.field h4{
+    color:#666;
+    margin-bottom:10px;
+}
+
+.field p{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.search-btn{
+    background:#ff7300;
+    color:white;
+    border:none;
+    font-size:28px;
+}
+
+
+
+.fares{
+    margin-top:20px;
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.chip{
+    border:1px solid #bbb;
+    padding:10px 18px;
+    border-radius:30px;
+}
+
+
+
+.cancel-box{
+    margin-top:20px;
+    background:#eef4fc;
+    padding:18px;
+    border-radius:10px;
+}
+
+
+
+.offers{
+    width:95%;
+    margin:30px auto;
+}
+
+.offers h2{
+    margin-bottom:20px;
+}
+
+.offer-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.offer{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
+.offer h3{
+    color:#ff6600;
+    margin-bottom:10px;
+}
+.wave{
+    background-image:url('/wave.jpg');
+    background-size:contain;
+    
+
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="top-banner">
+    <h1>Flat 20% Off on Flights</h1>
+    <p>Travel Sale Ends Soon</p>
+</div>
+<div class="wave" style="height: 20px; width: 100%;"></div>
+
+<div class="navbar">
+    <div class="logo">Ixigo</div>
+
+    <div class="nav-links">
+        <span>Offers</span>
+        <span>Customer Service</span>
+        <span>Login / Signup</span>
+    </div>
+</div>
+
+<div class="tabs">
+    <div class="tab active">Flights</div>
+    <div class="tab">Hotels</div>
+    <div class="tab">Trains</div>
+    <div class="tab">Buses</div>
+</div>
+
+<div class="search-card">
+
+    <div class="trip-type">
+        <div class="trip-btn">One Way</div>
+        <div class="trip-btn">Round Trip</div>
+    </div>
+
+    <div class="fields">
+
+        <div class="field">
+            <h4>From</h4>
+            <p>Delhi</p>
+        </div>
+
+        <div class="field">
+            <h4>To</h4>
+            <p>Mumbai</p>
+        </div>
+
+        <div class="field">
+            <h4>Departure</h4>
+            <p>06 Jun</p>
+        </div>
+
+        <div class="field">
+            <h4>Return</h4>
+            <p>Add Date</p>
+        </div>
+
+        <div class="field">
+            <h4>Travellers</h4>
+            <p>1 Adult</p>
+        </div>
+
+        <button class="search-btn">
+            Search
+        </button>
+
+    </div>
+
+    <div class="fares">
+        <div class="chip">Student</div>
+        <div class="chip">Senior Citizen</div>
+        <div class="chip">Armed Forces</div>
+    </div>
+
+    <div class="cancel-box">
+         Free Cancellation Available
+    </div>
+
+</div>
+
+<div class="offers">
+
+    <h2>Do More With TravelGo</h2>
+
+    <div class="offer-grid">
+
+        <div class="offer">
+            <h3>Flight Deals</h3>
+            <p>Save up to ₹1200</p>
+        </div>
+
+        <div class="offer">
+            <h3>Hotel Offers</h3>
+            <p>Flat 30% Discount</p>
+        </div>
+
+        <div class="offer">
+            <h3>Bus Cashback</h3>
+            <p>Up to ₹300 Back</p>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
