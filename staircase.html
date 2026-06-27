@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BALL DROP</title>
+    <style>
+        
+        body {
+            background-image: url("backimg.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 97.5vh;
+        }
+
+        .container{
+            margin-left: 500px;
+            margin-top: 200px;
+        }
+
+        .ball{
+            width: 50px;
+            height: 50px;
+            background-color: rgb(29, 154, 7);
+            border-radius: 50%;
+            margin-left: 0px;
+            margin-top: 0px;
+            animation: bounce-ball 5s ease-out ;
+            /* position: absolute; */
+        }
+        .stair1{
+            border: 3px solid rgb(255, 255, 255);
+            height: 5px;
+            width: 100px;
+            border-top-right-radius: 50%;
+            margin-left: 0px;
+            margin-top: 0px;
+
+        }
+        .stair2{
+            border: 3px solid rgb(255, 255, 255);
+            height: 5px;
+            width: 100px;
+            border-top-right-radius: 50%;
+            margin-left: 130px;
+            margin-top: 90px;
+
+        }
+        .stair3{
+            border: 3px solid rgb(255, 252, 252);
+            height: 5px;
+            width: 100px;
+            border-top-right-radius: 50%;
+            margin-left: 270px;
+            margin-top: 90px;
+
+        }
+        .stair4{
+            border: 3px solid rgb(255, 255, 255);
+            height: 5px;
+            width: 100px;
+            border-top-right-radius: 50%;
+            margin-left: 380px;
+            margin-top: 90px;
+
+        }
+
+        @keyframes bounce-ball{
+            0%{
+                transform: translate(0px, 0px);
+            }
+            15%{
+                transform: translate(150px, 0px);
+                
+            }
+            30%{
+                transform: translate(150px, 100px)
+            }
+            40%{
+                transform: translate(270px, 100px)
+            }
+            60%{
+                transform: translate(300px,200px);
+            }
+            78%{
+                transform: translate(400px,200px);
+            }
+            100%{
+                transform: translate(400px,300px);
+            }
+
+        }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div class="ball"></div>
+            <div class="stair1"></div>
+            <div class="stair2"></div>
+            <div class="stair3"></div>
+            <div class="stair4"></div>
+        </div>
+</body>
+</html>

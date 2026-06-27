@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .line{
+            text-decoration: underline black wavy;
+            color: red;
+            animation: under-line 2s infinite linear;
+        }
+
+        @keyframes under-line{
+            0%{
+                text-decoration: none;
+            color: red;
+            }
+            100%{
+                text-decoration: underline rgb(255, 0, 0) wavy;
+            color: rgb(0, 0, 0);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="line">just a text</h1>
+</body>
+</html>
